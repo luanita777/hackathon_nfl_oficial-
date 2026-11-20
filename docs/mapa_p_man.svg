@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" font-family="Helvetica,Arial,sans-serif">
+<rect width="760" height="430" fill="#0b1220"/>
+<text x="30" y="40" fill="#fff" font-size="22" font-weight="700">¿Man o Zone? La alineación lo delata</text>
+<text x="30" y="64" fill="#9fb0c8" font-size="13">P(Man) según la profundidad de los esquineros al snap (yardas, columnas) y safeties profundos (≥8 yd, filas). n=6,987 jugadas.</text>
+<text x="420.0" y="102" fill="#cbd5e1" font-size="13" text-anchor="middle">Profundidad media de los dos esquineros (yd)</text>
+<text x="220.0" y="118" fill="#cbd5e1" font-size="13" text-anchor="middle">≤2</text>
+<text x="320.0" y="118" fill="#cbd5e1" font-size="13" text-anchor="middle">2–4</text>
+<text x="420.0" y="118" fill="#cbd5e1" font-size="13" text-anchor="middle">4–6</text>
+<text x="520.0" y="118" fill="#cbd5e1" font-size="13" text-anchor="middle">6–8</text>
+<text x="620.0" y="118" fill="#cbd5e1" font-size="13" text-anchor="middle">>8</text>
+<text x="158" y="153.0" fill="#cbd5e1" font-size="13" text-anchor="end">0 safeties</text>
+<rect x="172" y="122" width="96" height="52" rx="6" fill="#f97316" fill-opacity="0.87"/>
+<text x="220.0" y="148.0" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">84% Man</text><text x="220.0" y="164.0" fill="#e5e7eb" font-size="11" text-anchor="middle">n=77</text>
+<rect x="272" y="122" width="96" height="52" rx="6" fill="#f97316" fill-opacity="0.80"/>
+<text x="320.0" y="148.0" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">76% Man</text><text x="320.0" y="164.0" fill="#e5e7eb" font-size="11" text-anchor="middle">n=88</text>
+<rect x="372" y="122" width="96" height="52" rx="6" fill="#f97316" fill-opacity="0.62"/>
+<text x="420.0" y="148.0" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">56% Man</text><text x="420.0" y="164.0" fill="#e5e7eb" font-size="11" text-anchor="middle">n=63</text>
+<rect x="472" y="122" width="96" height="52" rx="6" fill="#f97316" fill-opacity="0.59"/>
+<text x="520.0" y="148.0" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">52% Man</text><text x="520.0" y="164.0" fill="#e5e7eb" font-size="11" text-anchor="middle">n=66</text>
+<rect x="572" y="122" width="96" height="52" rx="6" fill="#1f2937"/><text x="620.0" y="152.0" fill="#6b7280" font-size="11" text-anchor="middle">n=23 (<30)</text>
+<text x="158" y="209.0" fill="#cbd5e1" font-size="13" text-anchor="end">1 safeties</text>
+<rect x="172" y="178" width="96" height="52" rx="6" fill="#f97316" fill-opacity="0.82"/>
+<text x="220.0" y="204.0" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">79% Man</text><text x="220.0" y="220.0" fill="#e5e7eb" font-size="11" text-anchor="middle">n=537</text>
+<rect x="272" y="178" width="96" height="52" rx="6" fill="#f97316" fill-opacity="0.58"/>
+<text x="320.0" y="204.0" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">51% Man</text><text x="320.0" y="220.0" fill="#e5e7eb" font-size="11" text-anchor="middle">n=758</text>
+<rect x="372" y="178" width="96" height="52" rx="6" fill="#f97316" fill-opacity="0.46"/>
+<text x="420.0" y="204.0" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">36% Man</text><text x="420.0" y="220.0" fill="#e5e7eb" font-size="11" text-anchor="middle">n=851</text>
+<rect x="472" y="178" width="96" height="52" rx="6" fill="#f97316" fill-opacity="0.31"/>
+<text x="520.0" y="204.0" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">18% Man</text><text x="520.0" y="220.0" fill="#e5e7eb" font-size="11" text-anchor="middle">n=738</text>
+<rect x="572" y="178" width="96" height="52" rx="6" fill="#f97316" fill-opacity="0.27"/>
+<text x="620.0" y="204.0" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">14% Man</text><text x="620.0" y="220.0" fill="#e5e7eb" font-size="11" text-anchor="middle">n=254</text>
+<text x="158" y="265.0" fill="#cbd5e1" font-size="13" text-anchor="end">2 safeties</text>
+<rect x="172" y="234" width="96" height="52" rx="6" fill="#f97316" fill-opacity="0.58"/>
+<text x="220.0" y="260.0" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">50% Man</text><text x="220.0" y="276.0" fill="#e5e7eb" font-size="11" text-anchor="middle">n=390</text>
+<rect x="272" y="234" width="96" height="52" rx="6" fill="#f97316" fill-opacity="0.38"/>
+<text x="320.0" y="260.0" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">27% Man</text><text x="320.0" y="276.0" fill="#e5e7eb" font-size="11" text-anchor="middle">n=678</text>
+<rect x="372" y="234" width="96" height="52" rx="6" fill="#f97316" fill-opacity="0.30"/>
+<text x="420.0" y="260.0" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">17% Man</text><text x="420.0" y="276.0" fill="#e5e7eb" font-size="11" text-anchor="middle">n=979</text>
+<rect x="472" y="234" width="96" height="52" rx="6" fill="#f97316" fill-opacity="0.23"/>
+<text x="520.0" y="260.0" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">10% Man</text><text x="520.0" y="276.0" fill="#e5e7eb" font-size="11" text-anchor="middle">n=866</text>
+<rect x="572" y="234" width="96" height="52" rx="6" fill="#f97316" fill-opacity="0.23"/>
+<text x="620.0" y="260.0" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">10% Man</text><text x="620.0" y="276.0" fill="#e5e7eb" font-size="11" text-anchor="middle">n=406</text>
+<text x="158" y="321.0" fill="#cbd5e1" font-size="13" text-anchor="end">3 safeties</text>
+<rect x="172" y="290" width="96" height="52" rx="6" fill="#1f2937"/><text x="220.0" y="320.0" fill="#6b7280" font-size="11" text-anchor="middle">n=6 (<30)</text>
+<rect x="272" y="290" width="96" height="52" rx="6" fill="#1f2937"/><text x="320.0" y="320.0" fill="#6b7280" font-size="11" text-anchor="middle">n=21 (<30)</text>
+<rect x="372" y="290" width="96" height="52" rx="6" fill="#f97316" fill-opacity="0.24"/>
+<text x="420.0" y="316.0" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">11% Man</text><text x="420.0" y="332.0" fill="#e5e7eb" font-size="11" text-anchor="middle">n=38</text>
+<rect x="472" y="290" width="96" height="52" rx="6" fill="#f97316" fill-opacity="0.17"/>
+<text x="520.0" y="316.0" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">2% Man</text><text x="520.0" y="332.0" fill="#e5e7eb" font-size="11" text-anchor="middle">n=45</text>
+<rect x="572" y="290" width="96" height="52" rx="6" fill="#f97316" fill-opacity="0.18"/>
+<text x="620.0" y="316.0" fill="#fff" font-size="17" font-weight="700" text-anchor="middle">4% Man</text><text x="620.0" y="332.0" fill="#e5e7eb" font-size="11" text-anchor="middle">n=103</text>
+<text x="30" y="400" fill="#9fb0c8" font-size="12">Naranja intenso = casi siempre Man; tenue = casi siempre Zone. Gris: n &lt; 30, no se estima. Datos: NFL Big Data Bowl 2021, semanas 1–8.</text>
+</svg>

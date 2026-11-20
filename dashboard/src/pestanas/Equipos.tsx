@@ -51,11 +51,12 @@ export default function Equipos({ irA }: { irA?: (p: Pestana) => void }) {
             className="ml-auto rounded border border-slate-600 px-2 py-1 text-xs text-slate-300 hover:border-sky-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-400">Quitar equipo</button>
         </div>
       )}
+      <PreguntasCoach irA={irA} acento={acento} />
       {filtros.equipo && <ModoRival equipo={filtros.equipo} />}
 
       <section className="rounded-lg border bg-slate-900/60 p-3" style={{ borderColor: acento + '66' }}>
         <div className="flex flex-wrap items-center gap-2">
-          <h2 className="text-sm font-semibold" style={{ color: acento }}>¿Qué equipos disfrazan más? <Tip t="disfraz" /></h2>
+          <h2 className="text-sm font-semibold" style={{ color: acento }}>¿Qué equipos engañan más con su acomodo? <Tip t="disfraz" /></h2>
           {!val.cargando && <Sello nivel={sello.nivel} motivo={sello.motivo} />}
         </div>
         {!val.cargando && sello.nivel !== 'solido' && (
@@ -76,7 +77,6 @@ export default function Equipos({ irA }: { irA?: (p: Pestana) => void }) {
         </div>
       </section>
 
-      <PreguntasCoach irA={irA} acento={acento} />
     </div>
   )
 }

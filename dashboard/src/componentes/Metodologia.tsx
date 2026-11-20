@@ -31,7 +31,7 @@ export default function Metodologia() {
           <span className="text-amber-300/80">Revisa <Tip t="n_menor_30">n</Tip> antes de sacar conclusiones.</span>
         </div>
       )}
-      <details open className="rounded-lg border border-slate-700 bg-slate-900/50 px-3 py-2 text-xs text-slate-300">
+      <details className="rounded-lg border border-slate-700 bg-slate-900/50 px-3 py-2 text-xs text-slate-300">
         <summary className="cursor-pointer select-none text-sm font-medium text-slate-100">Metodología y límites</summary>
         <div className="mt-2 grid gap-x-6 gap-y-1 md:grid-cols-2">
           <div>

@@ -42,10 +42,10 @@ export function MapaCalor({ filas, seleccion, onSeleccion }: Props) {
     <div>
       <div role="grid" aria-label="P(Man) por alineación: tramo de CB y safeties profundos" onKeyDown={teclado} className="space-y-1">
         <div role="row" className={cols}>
-          <div role="columnheader" className="text-[10px] leading-tight text-slate-400"><Tip t="cb">CB</Tip> a la línea</div>
+          <div role="columnheader" className="text-[10px] leading-tight text-slate-400">Esquineros a la línea</div>
           {SAFETIES.map((s) => (
             <div key={s} role="columnheader" className="text-center text-[11px] text-slate-300">
-              {s} <Tip t="safety" sinIcono>safeties</Tip>
+              {s} <Tip t="safety" sinIcono>safeties</Tip> al fondo
             </div>
           ))}
         </div>
@@ -79,9 +79,9 @@ export function MapaCalor({ filas, seleccion, onSeleccion }: Props) {
                     </>
                   ) : (
                     <>
-                      <span className="text-base font-bold">{pct(est as number, 0)}</span>
-                      <span className="text-[10px]">n={n}</span>
-                      <span className="text-[10px] font-semibold"><span aria-hidden>{ICO[lect]} </span>{TXT[lect]}</span>
+                      <span className="text-sm font-extrabold uppercase"><span aria-hidden>{ICO[lect]} </span>{lect === 'man' ? 'Man' : lect === 'zone' ? 'Zone' : 'Mixto'}</span>
+                      <span className="text-[11px]">{Math.round((est as number) * 10)} de 10 son Man</span>
+                      <span className="text-[10px] opacity-80">{n} jugadas</span>
                     </>
                   )}
                 </button>
@@ -91,10 +91,10 @@ export function MapaCalor({ filas, seleccion, onSeleccion }: Props) {
         ))}
       </div>
       <div className="mt-2 flex items-center gap-2 text-[11px] text-slate-300">
-        <span>parece Zone</span>
+        <span>suele ser Zone</span>
         <span aria-hidden className="h-2.5 w-32 rounded" style={{ background: `linear-gradient(90deg, ${colorPMan(0)}, ${colorPMan(0.5)}, ${colorPMan(1)})` }} />
-        <span>parece Man</span>
-        <span className="text-slate-500">· centro gris = ambigua · * borde punteado = n &lt; {MIN_N}, sin cifra</span>
+        <span>suele ser Man</span>
+        <span className="text-slate-500">· gris = mixto · * = pocas jugadas (menos de {MIN_N}), sin cifra</span>
       </div>
     </div>
   )

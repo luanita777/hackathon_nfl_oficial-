@@ -31,8 +31,8 @@ export function Semaforo({ fila }: { fila: FilaTell }) {
   const s = semaforoDe(fila)
   const e = ESTILO[s.color]
   const frase = s.color === 'gris' || s.lado === null || s.acierto === null || s.lo === null || s.hi === null
-    ? 'n insuficiente: no hay lectura confiable'
-    : `Si ves esto, lee ${s.lado} con ${pct(s.acierto)} de acierto (IC95% ${pct(s.lo)}–${pct(s.hi)}, n=${s.n})`
+    ? 'Muy pocas jugadas: no hay lectura confiable'
+    : `Si ves este acomodo, apuesta a ${s.lado}: acertarás en ${pct(s.acierto, 0)} de las veces (entre ${pct(s.lo, 0)} y ${pct(s.hi, 0)}; ${s.n} jugadas).`
   return (
     <div className={`rounded-lg border bg-slate-900/60 p-3 transition-colors duration-200 ${e.clase}`}>
       <div className="flex items-center gap-3" role="group" aria-label={`Semáforo ${e.nombre}: ${frase}`}>
