@@ -1,58 +1,55 @@
 
-===== setup 2026-11-20 08:47:50 =====
-08:47:39 Sistema detectado: linux x64  |  Python del arranque: 3.12.10
-08:47:50     Creando proyecto en: /home/luanita777/Documents/Desarrollo/Proyectos/Hackathon_NFL/hackathon_nfl_oficial
-08:47:50     AVISO: La ruta tiene espacios, acentos o es larga; algunas herramientas pueden fallar.
-08:47:50 MODO: instalación  |  versión del script: 2026-11-16  |  argumentos: (ninguno)
-08:47:50 SISTEMA: Linux-6.16.3-x86_64-with-glibc2.39  |  detectado: linux x64  |  versión: #1 SMP PREEMPT_DYNAMIC Tue Aug 26 15:36:52 CST 2025
-08:47:50 PYTHON: 3.12.10 (/usr/bin/python3)
-08:47:50 USUARIO: luanita777  |  carpeta actual: /home/luanita777/Documents/Desarrollo/Proyectos/Hackathon_NFL/plantilla-hackathon
-08:47:50 PROYECTO: /home/luanita777/Documents/Desarrollo/Proyectos/Hackathon_NFL/hackathon_nfl_oficial  |  largo de ruta: 83  |  espacios: False  |  no ASCII: False
-08:47:50 DISCO LIBRE: 184.6 GB
-08:47:50 PROXY: ninguno
-08:47:50 Proyecto: /home/luanita777/Documents/Desarrollo/Proyectos/Hackathon_NFL/hackathon_nfl_oficial
-08:47:50 
+===== setup 2026-11-20 10:18:52 =====
+10:18:52 Sistema detectado: macos arm64  |  Python del arranque: 3.14.7
+10:18:52 MODO: instalación  |  versión del script: 2026-11-16  |  argumentos: (ninguno)
+10:18:52 SISTEMA: macOS-26.6.2-arm64-arm-64bit-Mach-O  |  detectado: macos arm64  |  versión: Darwin Kernel Version 25.6.0: Fri Jul 31 19:11:03 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T8132
+10:18:52 PYTHON: 3.14.7 (/opt/homebrew/opt/python@3.14/bin/python3.14)
+10:18:52 USUARIO: francisconolasco  |  carpeta actual: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
+10:18:52 PROYECTO: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-  |  largo de ruta: 54  |  espacios: False  |  no ASCII: False
+10:18:52 DISCO LIBRE: 173.4 GB
+10:18:52 PROXY: ninguno
+10:18:52 Proyecto: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
+10:18:52 
 [1/8] Preparando carpetas
-08:47:50     Reglas de Kiro instaladas en .kiro/steering/rules.md
-08:47:50 
+10:18:52 
 [2/8] Instalando uv 0.11.19
-08:47:50 descargando https://astral.sh/uv/0.11.19/install.sh
-08:47:51 $ sh /home/luanita777/Documents/Desarrollo/Proyectos/Hackathon_NFL/hackathon_nfl_oficial/.hackathon/.cache/downloads/uv-install.sh
-08:47:56 downloading uv 0.11.19 x86_64-unknown-linux-gnu
-installing to /home/luanita777/Documents/Desarrollo/Proyectos/Hackathon_NFL/hackathon_nfl_oficial/.hackathon/.tools/uv
+10:18:52 descargando https://astral.sh/uv/0.11.19/install.sh
+10:18:52 $ sh /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.hackathon/.cache/downloads/uv-install.sh
+10:18:55 downloading uv 0.11.19 aarch64-apple-darwin
+installing to /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.hackathon/.tools/uv
   uv
   uvx
 everything's installed!
-08:47:56     uv 0.11.19 instalado en .tools/uv
-08:47:56 
+10:18:55     uv 0.11.19 instalado en .tools/uv
+10:18:55 
 [3/8] Instalando Python 3.12.12 y creando .venv
-08:47:56 $ /home/luanita777/Documents/Desarrollo/Proyectos/Hackathon_NFL/hackathon_nfl_oficial/.hackathon/.tools/uv/uv python install 3.12.12 --no-bin --no-registry
-08:48:00 Downloading cpython-3.12.12-linux-x86_64-gnu (download) (32.3MiB)
- Downloaded cpython-3.12.12-linux-x86_64-gnu (download)
-Installed Python 3.12.12 in 3.95s
- + cpython-3.12.12-linux-x86_64-gnu
-08:48:00     Python 3.12.12 disponible en .tools/python
-08:48:00 $ /home/luanita777/Documents/Desarrollo/Proyectos/Hackathon_NFL/hackathon_nfl_oficial/.hackathon/.tools/uv/uv venv --python 3.12.12 /home/luanita777/Documents/Desarrollo/Proyectos/Hackathon_NFL/hackathon_nfl_oficial/.venv
-08:48:00 Using CPython 3.12.12
+10:18:55 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.hackathon/.tools/uv/uv python install 3.12.12 --no-bin --no-registry
+10:18:57 Downloading cpython-3.12.12-macos-aarch64-none (download) (16.8MiB)
+ Downloaded cpython-3.12.12-macos-aarch64-none (download)
+Installed Python 3.12.12 in 1.56s
+ + cpython-3.12.12-macos-aarch64-none
+10:18:57     Python 3.12.12 disponible en .tools/python
+10:18:57 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.hackathon/.tools/uv/uv venv --python 3.12.12 /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv
+10:18:57 Using CPython 3.12.12
 Creating virtual environment at: .venv
 Activate with: source .venv/bin/activate
-08:48:00     .venv creado
-08:48:00 
+10:18:57     .venv creado
+10:18:57 
 [4/8] Instalando dependencias de Python (una sola resolución, solo ruedas)
-08:48:00 $ /home/luanita777/Documents/Desarrollo/Proyectos/Hackathon_NFL/hackathon_nfl_oficial/.hackathon/.tools/uv/uv pip install --python /home/luanita777/Documents/Desarrollo/Proyectos/Hackathon_NFL/hackathon_nfl_oficial/.venv/bin/python --only-binary :all: --require-hashes -r /home/luanita777/Documents/Desarrollo/Proyectos/Hackathon_NFL/hackathon_nfl_oficial/.hackathon/requirements.lock
-08:48:07 Resolved 55 packages in 1.04s
-Downloading pandas (12.1MiB)
-Downloading numpy (15.3MiB)
-Downloading cryptography (4.5MiB)
-Downloading pydantic-core (1.9MiB)
+10:18:57 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.hackathon/.tools/uv/uv pip install --python /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python --only-binary :all: --require-hashes -r /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.hackathon/requirements.lock
+10:19:10 Resolved 55 packages in 1.70s
+Downloading numpy (4.9MiB)
 Downloading botocore (15.5MiB)
+Downloading pydantic-core (1.8MiB)
+Downloading pandas (10.8MiB)
+Downloading cryptography (3.7MiB)
  Downloaded pydantic-core
  Downloaded cryptography
+ Downloaded numpy
  Downloaded pandas
  Downloaded botocore
- Downloaded numpy
-Prepared 55 packages in 4.76s
-Installed 55 packages in 722ms
+Prepared 55 packages in 3.63s
+Installed 55 packages in 6.74s
  + annotated-types==0.8.0
  + anyio==4.16.0
  + attrs==26.1.0
@@ -108,40 +105,328 @@ Installed 55 packages in 722ms
  + uvicorn==0.34.3
  + watchdog==6.0.0
  + wrapt==2.5.2
-08:48:07     Dependencias de Python instaladas desde el archivo de bloqueo
-08:48:07 
+10:19:10     Dependencias de Python instaladas desde el archivo de bloqueo
+10:19:10 
 [5/8] Descargando Node 22.23.1 portátil y verificando SHA-256
-08:48:07 descargando https://nodejs.org/dist/v22.23.1/SHASUMS256.txt
-08:48:07 descargando https://nodejs.org/dist/v22.23.1/node-v22.23.1-linux-x64.tar.xz
-08:48:09     Suma SHA-256 verificada
-08:48:12     Node v22.23.1 instalado en .tools/node
-08:48:12 
+10:19:10 descargando https://nodejs.org/dist/v22.23.1/SHASUMS256.txt
+10:19:10 descargando https://nodejs.org/dist/v22.23.1/node-v22.23.1-darwin-arm64.tar.gz
+10:19:14     Suma SHA-256 verificada
+10:19:17     Node v22.23.1 instalado en .tools/node
+10:19:17 
 [6/8] Instalando dependencias del frontend (npm ci)
-08:48:12 $ /home/luanita777/Documents/Desarrollo/Proyectos/Hackathon_NFL/hackathon_nfl_oficial/.hackathon/.tools/node/bin/npm ci --ignore-scripts
-08:48:15 
-added 173 packages in 3s
-08:48:15     Dependencias del frontend instaladas con npm ci --ignore-scripts
-08:48:15 
+10:19:17 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.hackathon/.tools/node/bin/npm ci --ignore-scripts
+10:19:19 
+added 173 packages in 2s
+10:19:19     Dependencias del frontend instaladas con npm ci --ignore-scripts
+10:19:19 
 [7/8] Comprobando todo
-08:48:16 $ /home/luanita777/Documents/Desarrollo/Proyectos/Hackathon_NFL/hackathon_nfl_oficial/.hackathon/.tools/uv/uv pip check --python /home/luanita777/Documents/Desarrollo/Proyectos/Hackathon_NFL/hackathon_nfl_oficial/.venv/bin/python
-08:48:16 Checked 55 packages in 1ms
+10:19:20 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.hackathon/.tools/uv/uv pip check --python /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python
+10:19:20 Checked 55 packages in 30ms
 All installed packages are compatible
-08:48:16 $ /home/luanita777/Documents/Desarrollo/Proyectos/Hackathon_NFL/hackathon_nfl_oficial/.venv/bin/python -c import pandas, numpy, fastapi, uvicorn, pydantic, strands, boto3, httpx
-08:48:19 
-08:48:19   Pieza              Esperado                            Encontrado      Estado
-08:48:19   -----------------  ----------------------------------  --------------  ------
-08:48:19   uv                 0.11.19                             0.11.19         OK    
-08:48:19   Python (.venv)     3.12.12                             3.12.12         OK    
-08:48:19   Node               v22.23.1                            v22.23.1        OK    
-08:48:19   npm                10.x                                10.9.8          OK    
-08:48:19   Paquetes Python    9 fijos                             9 coinciden     OK    
-08:48:19   Paquetes npm       12 fijos                            12 coinciden    OK    
-08:48:19   pip check          sin conflictos                      sin conflictos  OK    
-08:48:19   Importar paquetes  pandas, fastapi, pydantic, strands  importan        OK    
-08:48:19 
+10:19:20 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -c import pandas, numpy, fastapi, uvicorn, pydantic, strands, boto3, httpx
+10:19:30 
+10:19:30   Pieza              Esperado                            Encontrado      Estado
+10:19:30   -----------------  ----------------------------------  --------------  ------
+10:19:30   uv                 0.11.19                             0.11.19         OK    
+10:19:30   Python (.venv)     3.12.12                             3.12.12         OK    
+10:19:30   Node               v22.23.1                            v22.23.1        OK    
+10:19:30   npm                10.x                                10.9.8          OK    
+10:19:30   Paquetes Python    9 fijos                             9 coinciden     OK    
+10:19:30   Paquetes npm       12 fijos                            12 coinciden    OK    
+10:19:30   pip check          sin conflictos                      sin conflictos  OK    
+10:19:30   Importar paquetes  pandas, fastapi, pydantic, strands  importan        OK    
+10:19:30 
 [8/8] Resultado
-08:48:19 
+10:19:30 
 TODO OK. Tu proyecto está en:
-  /home/luanita777/Documents/Desarrollo/Proyectos/Hackathon_NFL/hackathon_nfl_oficial
+  /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
 Trabaja dentro de esa carpeta. Cuando termines, corre:  sh .hackathon/setup.sh --entregar
-08:48:19 FIN con código de salida 0
+10:19:30 FIN con código de salida 0
+
+===== setup 2026-11-20 11:31:46 =====
+11:31:46 Sistema detectado: macos arm64  |  Python del arranque: 3.12.12
+11:31:46 MODO: check  |  versión del script: 2026-11-16  |  argumentos: --check
+11:31:51 SISTEMA: macOS-26.6.2-arm64-arm-64bit  |  detectado: macos arm64  |  versión: Darwin Kernel Version 25.6.0: Fri Jul 31 19:11:03 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T8132
+11:31:51 PYTHON: 3.12.12 (/Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python)
+11:31:51 USUARIO: francisconolasco  |  carpeta actual: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
+11:31:51 PROYECTO: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-  |  largo de ruta: 54  |  espacios: False  |  no ASCII: False
+11:31:51 DISCO LIBRE: 169.6 GB
+11:31:51 PROXY: ninguno
+11:31:51 Proyecto: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
+11:31:51 
+Validando (no se descarga ni instala nada)...
+11:31:51 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.hackathon/.tools/uv/uv pip check --python /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python
+11:31:51 Checked 55 packages in 6ms
+All installed packages are compatible
+11:31:51 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -c import pandas, numpy, fastapi, uvicorn, pydantic, strands, boto3, httpx
+11:31:52 
+11:31:52   Pieza              Esperado                            Encontrado      Estado
+11:31:52   -----------------  ----------------------------------  --------------  ------
+11:31:52   uv                 0.11.19                             0.11.19         OK    
+11:31:52   Python (.venv)     3.12.12                             3.12.12         OK    
+11:31:52   Node               v22.23.1                            v22.23.1        OK    
+11:31:52   npm                10.x                                10.9.8          OK    
+11:31:52   Paquetes Python    9 fijos                             9 coinciden     OK    
+11:31:52   Paquetes npm       12 fijos                            12 coinciden    OK    
+11:31:52   pip check          sin conflictos                      sin conflictos  OK    
+11:31:52   Importar paquetes  pandas, fastapi, pydantic, strands  importan        OK    
+11:31:52 
+Revisando desviaciones del stack...
+11:31:52 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -c import backend.main as m;assert hasattr(m,'app'), 'APP';assert any(getattr(r,'path','')=='/health' for r in m.app.routes), 'HEALTH'
+11:31:52 
+11:31:52     El proyecto sigue el stack del evento
+11:31:52 
+RESULTADO: TODO OK, puedes entregar.
+11:31:52 FIN con código de salida 0
+
+===== setup 2026-11-20 11:41:45 =====
+11:41:45 Sistema detectado: macos arm64  |  Python del arranque: 3.12.12
+11:41:45 MODO: check  |  versión del script: 2026-11-16  |  argumentos: --check
+11:41:45 SISTEMA: macOS-26.6.2-arm64-arm-64bit  |  detectado: macos arm64  |  versión: Darwin Kernel Version 25.6.0: Fri Jul 31 19:11:03 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T8132
+11:41:45 PYTHON: 3.12.12 (/Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python)
+11:41:45 USUARIO: francisconolasco  |  carpeta actual: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
+11:41:45 PROYECTO: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-  |  largo de ruta: 54  |  espacios: False  |  no ASCII: False
+11:41:45 DISCO LIBRE: 169.6 GB
+11:41:45 PROXY: ninguno
+11:41:45 Proyecto: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
+11:41:45 
+Validando (no se descarga ni instala nada)...
+11:41:45 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.hackathon/.tools/uv/uv pip check --python /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python
+11:41:45 Checked 55 packages in 6ms
+All installed packages are compatible
+11:41:45 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -c import pandas, numpy, fastapi, uvicorn, pydantic, strands, boto3, httpx
+11:41:46 
+11:41:46   Pieza              Esperado                            Encontrado      Estado
+11:41:46   -----------------  ----------------------------------  --------------  ------
+11:41:46   uv                 0.11.19                             0.11.19         OK    
+11:41:46   Python (.venv)     3.12.12                             3.12.12         OK    
+11:41:46   Node               v22.23.1                            v22.23.1        OK    
+11:41:46   npm                10.x                                10.9.8          OK    
+11:41:46   Paquetes Python    9 fijos                             9 coinciden     OK    
+11:41:46   Paquetes npm       12 fijos                            12 coinciden    OK    
+11:41:46   pip check          sin conflictos                      sin conflictos  OK    
+11:41:46   Importar paquetes  pandas, fastapi, pydantic, strands  importan        OK    
+11:41:46 
+Revisando desviaciones del stack...
+11:41:46 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -c import backend.main as m;assert hasattr(m,'app'), 'APP';assert any(getattr(r,'path','')=='/health' for r in m.app.routes), 'HEALTH'
+11:41:46 
+11:41:46     El proyecto sigue el stack del evento
+11:41:46 
+RESULTADO: TODO OK, puedes entregar.
+11:41:46 FIN con código de salida 0
+
+===== setup 2026-11-20 11:52:17 =====
+11:52:17 Sistema detectado: macos arm64  |  Python del arranque: 3.12.12
+11:52:17 MODO: check  |  versión del script: 2026-11-16  |  argumentos: --check
+11:52:17 SISTEMA: macOS-26.6.2-arm64-arm-64bit  |  detectado: macos arm64  |  versión: Darwin Kernel Version 25.6.0: Fri Jul 31 19:11:03 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T8132
+11:52:17 PYTHON: 3.12.12 (/Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python)
+11:52:17 USUARIO: francisconolasco  |  carpeta actual: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
+11:52:17 PROYECTO: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-  |  largo de ruta: 54  |  espacios: False  |  no ASCII: False
+11:52:17 DISCO LIBRE: 169.6 GB
+11:52:17 PROXY: ninguno
+11:52:17 Proyecto: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
+11:52:17 
+Validando (no se descarga ni instala nada)...
+11:52:17 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.hackathon/.tools/uv/uv pip check --python /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python
+11:52:17 Checked 55 packages in 6ms
+All installed packages are compatible
+11:52:17 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -c import pandas, numpy, fastapi, uvicorn, pydantic, strands, boto3, httpx
+11:52:18 
+11:52:18   Pieza              Esperado                            Encontrado      Estado
+11:52:18   -----------------  ----------------------------------  --------------  ------
+11:52:18   uv                 0.11.19                             0.11.19         OK    
+11:52:18   Python (.venv)     3.12.12                             3.12.12         OK    
+11:52:18   Node               v22.23.1                            v22.23.1        OK    
+11:52:18   npm                10.x                                10.9.8          OK    
+11:52:18   Paquetes Python    9 fijos                             9 coinciden     OK    
+11:52:18   Paquetes npm       12 fijos                            12 coinciden    OK    
+11:52:18   pip check          sin conflictos                      sin conflictos  OK    
+11:52:18   Importar paquetes  pandas, fastapi, pydantic, strands  importan        OK    
+11:52:18 
+Revisando desviaciones del stack...
+11:52:18 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -c import backend.main as m;assert hasattr(m,'app'), 'APP';assert any(getattr(r,'path','')=='/health' for r in m.app.routes), 'HEALTH'
+11:52:18 
+11:52:18     El proyecto sigue el stack del evento
+11:52:18 
+RESULTADO: TODO OK, puedes entregar.
+11:52:18 FIN con código de salida 0
+
+===== setup 2026-11-20 11:52:34 =====
+11:52:34 Sistema detectado: macos arm64  |  Python del arranque: 3.12.12
+11:52:34 MODO: check  |  versión del script: 2026-11-16  |  argumentos: --check
+11:52:34 SISTEMA: macOS-26.6.2-arm64-arm-64bit  |  detectado: macos arm64  |  versión: Darwin Kernel Version 25.6.0: Fri Jul 31 19:11:03 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T8132
+11:52:34 PYTHON: 3.12.12 (/Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python)
+11:52:34 USUARIO: francisconolasco  |  carpeta actual: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
+11:52:34 PROYECTO: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-  |  largo de ruta: 54  |  espacios: False  |  no ASCII: False
+11:52:34 DISCO LIBRE: 169.5 GB
+11:52:34 PROXY: ninguno
+11:52:34 Proyecto: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
+11:52:34 
+Validando (no se descarga ni instala nada)...
+11:52:34 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.hackathon/.tools/uv/uv pip check --python /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python
+11:52:34 Checked 55 packages in 0.63ms
+All installed packages are compatible
+11:52:34 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -c import pandas, numpy, fastapi, uvicorn, pydantic, strands, boto3, httpx
+11:52:35 
+11:52:35   Pieza              Esperado                            Encontrado      Estado
+11:52:35   -----------------  ----------------------------------  --------------  ------
+11:52:35   uv                 0.11.19                             0.11.19         OK    
+11:52:35   Python (.venv)     3.12.12                             3.12.12         OK    
+11:52:35   Node               v22.23.1                            v22.23.1        OK    
+11:52:35   npm                10.x                                10.9.8          OK    
+11:52:35   Paquetes Python    9 fijos                             9 coinciden     OK    
+11:52:35   Paquetes npm       12 fijos                            12 coinciden    OK    
+11:52:35   pip check          sin conflictos                      sin conflictos  OK    
+11:52:35   Importar paquetes  pandas, fastapi, pydantic, strands  importan        OK    
+11:52:35 
+Revisando desviaciones del stack...
+11:52:35 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -c import backend.main as m;assert hasattr(m,'app'), 'APP';assert any(getattr(r,'path','')=='/health' for r in m.app.routes), 'HEALTH'
+11:52:35 
+11:52:35     El proyecto sigue el stack del evento
+11:52:35 
+RESULTADO: TODO OK, puedes entregar.
+11:52:35 FIN con código de salida 0
+
+===== setup 2026-11-20 12:00:30 =====
+12:00:30 Sistema detectado: macos arm64  |  Python del arranque: 3.12.12
+12:00:30 MODO: check  |  versión del script: 2026-11-16  |  argumentos: --check
+12:00:30 SISTEMA: macOS-26.6.2-arm64-arm-64bit  |  detectado: macos arm64  |  versión: Darwin Kernel Version 25.6.0: Fri Jul 31 19:11:03 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T8132
+12:00:30 PYTHON: 3.12.12 (/Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python)
+12:00:30 USUARIO: francisconolasco  |  carpeta actual: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
+12:00:30 PROYECTO: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-  |  largo de ruta: 54  |  espacios: False  |  no ASCII: False
+12:00:30 DISCO LIBRE: 169.5 GB
+12:00:30 PROXY: ninguno
+12:00:30 Proyecto: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
+12:00:30 
+Validando (no se descarga ni instala nada)...
+12:00:30 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.hackathon/.tools/uv/uv pip check --python /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python
+12:00:30 Checked 55 packages in 4ms
+All installed packages are compatible
+12:00:30 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -c import pandas, numpy, fastapi, uvicorn, pydantic, strands, boto3, httpx
+12:00:31 
+12:00:31   Pieza              Esperado                            Encontrado      Estado
+12:00:31   -----------------  ----------------------------------  --------------  ------
+12:00:31   uv                 0.11.19                             0.11.19         OK    
+12:00:31   Python (.venv)     3.12.12                             3.12.12         OK    
+12:00:31   Node               v22.23.1                            v22.23.1        OK    
+12:00:31   npm                10.x                                10.9.8          OK    
+12:00:31   Paquetes Python    9 fijos                             9 coinciden     OK    
+12:00:31   Paquetes npm       12 fijos                            12 coinciden    OK    
+12:00:31   pip check          sin conflictos                      sin conflictos  OK    
+12:00:31   Importar paquetes  pandas, fastapi, pydantic, strands  importan        OK    
+12:00:31 
+Revisando desviaciones del stack...
+12:00:31 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -c import backend.main as m;assert hasattr(m,'app'), 'APP';assert any(getattr(r,'path','')=='/health' for r in m.app.routes), 'HEALTH'
+12:00:31 
+12:00:31     El proyecto sigue el stack del evento
+12:00:31 
+RESULTADO: TODO OK, puedes entregar.
+12:00:31 FIN con código de salida 0
+
+===== setup 2026-11-20 12:01:26 =====
+12:01:26 Sistema detectado: macos arm64  |  Python del arranque: 3.12.12
+12:01:26 MODO: check  |  versión del script: 2026-11-16  |  argumentos: --check
+12:01:26 SISTEMA: macOS-26.6.2-arm64-arm-64bit  |  detectado: macos arm64  |  versión: Darwin Kernel Version 25.6.0: Fri Jul 31 19:11:03 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T8132
+12:01:26 PYTHON: 3.12.12 (/Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python)
+12:01:26 USUARIO: francisconolasco  |  carpeta actual: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
+12:01:26 PROYECTO: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-  |  largo de ruta: 54  |  espacios: False  |  no ASCII: False
+12:01:26 DISCO LIBRE: 169.5 GB
+12:01:26 PROXY: ninguno
+12:01:26 Proyecto: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
+12:01:26 
+Validando (no se descarga ni instala nada)...
+12:01:26 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.hackathon/.tools/uv/uv pip check --python /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python
+12:01:26 Checked 55 packages in 4ms
+All installed packages are compatible
+12:01:26 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -c import pandas, numpy, fastapi, uvicorn, pydantic, strands, boto3, httpx
+12:01:26 
+12:01:26   Pieza              Esperado                            Encontrado      Estado
+12:01:26   -----------------  ----------------------------------  --------------  ------
+12:01:26   uv                 0.11.19                             0.11.19         OK    
+12:01:26   Python (.venv)     3.12.12                             3.12.12         OK    
+12:01:26   Node               v22.23.1                            v22.23.1        OK    
+12:01:26   npm                10.x                                10.9.8          OK    
+12:01:26   Paquetes Python    9 fijos                             9 coinciden     OK    
+12:01:26   Paquetes npm       12 fijos                            12 coinciden    OK    
+12:01:26   pip check          sin conflictos                      sin conflictos  OK    
+12:01:26   Importar paquetes  pandas, fastapi, pydantic, strands  importan        OK    
+12:01:26 
+Revisando desviaciones del stack...
+12:01:26 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -c import backend.main as m;assert hasattr(m,'app'), 'APP';assert any(getattr(r,'path','')=='/health' for r in m.app.routes), 'HEALTH'
+12:01:27 
+12:01:27     El proyecto sigue el stack del evento
+12:01:27 
+RESULTADO: TODO OK, puedes entregar.
+12:01:27 FIN con código de salida 0
+
+===== setup 2026-11-20 12:17:17 =====
+12:17:17 Sistema detectado: macos arm64  |  Python del arranque: 3.12.12
+12:17:17 MODO: check  |  versión del script: 2026-11-16  |  argumentos: --check
+12:17:18 SISTEMA: macOS-26.6.2-arm64-arm-64bit  |  detectado: macos arm64  |  versión: Darwin Kernel Version 25.6.0: Fri Jul 31 19:11:03 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T8132
+12:17:18 PYTHON: 3.12.12 (/Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python)
+12:17:18 USUARIO: francisconolasco  |  carpeta actual: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
+12:17:18 PROYECTO: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-  |  largo de ruta: 54  |  espacios: False  |  no ASCII: False
+12:17:18 DISCO LIBRE: 169.4 GB
+12:17:18 PROXY: ninguno
+12:17:18 Proyecto: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
+12:17:18 
+Validando (no se descarga ni instala nada)...
+12:17:18 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.hackathon/.tools/uv/uv pip check --python /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python
+12:17:18 Checked 55 packages in 4ms
+All installed packages are compatible
+12:17:18 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -c import pandas, numpy, fastapi, uvicorn, pydantic, strands, boto3, httpx
+12:17:18 
+12:17:18   Pieza              Esperado                            Encontrado      Estado
+12:17:18   -----------------  ----------------------------------  --------------  ------
+12:17:18   uv                 0.11.19                             0.11.19         OK    
+12:17:18   Python (.venv)     3.12.12                             3.12.12         OK    
+12:17:18   Node               v22.23.1                            v22.23.1        OK    
+12:17:18   npm                10.x                                10.9.8          OK    
+12:17:18   Paquetes Python    9 fijos                             9 coinciden     OK    
+12:17:18   Paquetes npm       12 fijos                            12 coinciden    OK    
+12:17:18   pip check          sin conflictos                      sin conflictos  OK    
+12:17:18   Importar paquetes  pandas, fastapi, pydantic, strands  importan        OK    
+12:17:18 
+Revisando desviaciones del stack...
+12:17:18 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -c import backend.main as m;assert hasattr(m,'app'), 'APP';assert any(getattr(r,'path','')=='/health' for r in m.app.routes), 'HEALTH'
+12:17:19 
+12:17:19     El proyecto sigue el stack del evento
+12:17:19 
+RESULTADO: TODO OK, puedes entregar.
+12:17:19 FIN con código de salida 0
+
+===== setup 2026-11-20 12:20:21 =====
+12:20:21 Sistema detectado: macos arm64  |  Python del arranque: 3.12.12
+12:20:21 MODO: check  |  versión del script: 2026-11-16  |  argumentos: --check
+12:20:21 SISTEMA: macOS-26.6.2-arm64-arm-64bit  |  detectado: macos arm64  |  versión: Darwin Kernel Version 25.6.0: Fri Jul 31 19:11:03 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T8132
+12:20:21 PYTHON: 3.12.12 (/Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python)
+12:20:21 USUARIO: francisconolasco  |  carpeta actual: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
+12:20:21 PROYECTO: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-  |  largo de ruta: 54  |  espacios: False  |  no ASCII: False
+12:20:21 DISCO LIBRE: 169.4 GB
+12:20:21 PROXY: ninguno
+12:20:21 Proyecto: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
+12:20:21 
+Validando (no se descarga ni instala nada)...
+12:20:21 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.hackathon/.tools/uv/uv pip check --python /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python
+12:20:21 Checked 55 packages in 4ms
+All installed packages are compatible
+12:20:21 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -c import pandas, numpy, fastapi, uvicorn, pydantic, strands, boto3, httpx
+12:20:22 
+12:20:22   Pieza              Esperado                            Encontrado      Estado
+12:20:22   -----------------  ----------------------------------  --------------  ------
+12:20:22   uv                 0.11.19                             0.11.19         OK    
+12:20:22   Python (.venv)     3.12.12                             3.12.12         OK    
+12:20:22   Node               v22.23.1                            v22.23.1        OK    
+12:20:22   npm                10.x                                10.9.8          OK    
+12:20:22   Paquetes Python    9 fijos                             9 coinciden     OK    
+12:20:22   Paquetes npm       12 fijos                            12 coinciden    OK    
+12:20:22   pip check          sin conflictos                      sin conflictos  OK    
+12:20:22   Importar paquetes  pandas, fastapi, pydantic, strands  importan        OK    
+12:20:22 
+Revisando desviaciones del stack...
+12:20:22 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -c import backend.main as m;assert hasattr(m,'app'), 'APP';assert any(getattr(r,'path','')=='/health' for r in m.app.routes), 'HEALTH'
+12:20:22 
+12:20:22     El proyecto sigue el stack del evento
+12:20:22 
+RESULTADO: TODO OK, puedes entregar.
+12:20:22 FIN con código de salida 0

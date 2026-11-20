@@ -1,0 +1,114 @@
+1.- ¿Cuál es la formación que más ayuda en un 4to y 1 yarda por avanzar? 
+2.- ¿Cuál es el porcentaje de efectividad en un 4to y 1 yarda por avanzar de ____ equipo? 
+3.- ¿A partir de qué yarda es válido utilizar un 4to y 1 yarda por avanzar sin patada de despeje o anotación de tres puntos? 
+4.- ¿Cuál es el castigo más común dentro del equipo ofensivo? 
+5.- ¿Cuál es el castigo más común dentro del equipo defensivo? 
+6.- ¿Cuántos segundos le toma a el equipo defensivo capturar a un Quarterback? 
+7.- ¿Cuál es el castigo que más yardaje otorga? 
+8.-¿Cuál es el rango de goles de campo más comunes? 
+9.- ¿Cuántas yardas en promedio lanza un Quarterback? 
+10.- ¿Cuántas yardas en promedio corre un corredor?
+11.- ¿Cuál es la probabilidad de que un jugador de perímetro haga un blitz? 
+12.- ¿Cuál es el promedio de puntos anotados por equipo en un partido de temporada regular? 
+13.- ¿Cuál es el promedio de Touchdowns en un partido de playoffs por equipo? 
+14.- ¿Cuál es el promedio de centros bien centrados? 
+15.-¿Cuál es la probabilidad de que un centro sea muy bajo por el poco tiempo en el reloj?
+16.- ¿Cuál es la probabilidad de que un centro sea muy alto por el poco tiempo en el reloj? 
+17.- ¿Cuál es el promedio de fumbles en un juego? 
+18.- ¿Cuál es la posición que más fumblea un balón?
+19.- ¿Cuál es el promedio de sacks por partido de un jugador?
+20.- ¿Cuántos sacks consigue, en promedio, por temporada?
+21.- ¿En qué cuarto consigue más sacks?
+22.- ¿En qué down consigue más sacks?
+23.- ¿Cuántos sacks recibe el quarterback por partido?
+24.- ¿Cuántos sacks recibe el quarterback en un partido de playoffs?
+25.- ¿Qué porcentaje de jugadas de tercer down consigue convertir en first down?
+26.- ¿Cuántos snaps disputa un liniero ofensivo por partido?
+27.- ¿Cuántas penalizaciones comete un liniero ofensivo por temporada?
+28.- ¿Cuántos castigos por holding recibe un liniero ofensivo en promedio?
+29.- ¿Cuántas veces comete false starts un liniero ofensivo en promedio?
+30.- ¿Cuántas veces comete false starts un liniero defensivo en promedio?
+31.-¿Cuántas presiones permite por cada 100 snaps un liniero ofensivo en promedio?
+32.- ¿Qué relación existe entre el peso y la eficiencia de bloqueo de un liniero ofensivo?
+33.- ¿Qué posición de la línea ofensiva comete más penalizaciones?
+34.- ¿Qué tan frecuente es que un liniero pierda su asignación de bloqueo?
+35.- ¿Cuántas temporadas lleva jugando un liniero en el mismo equipo en promedio?
+36.- ¿Qué tipo de lesiones son más frecuentes entre linieros ofensivos?
+37.-¿Qué lesiones tienen mayor impacto en el rendimiento de un liniero?
+38.- ¿Qué posición presenta mayor incidencia de lesiones?
+39.- ¿Cuántas lesiones se registran en promedio durante una temporada de la NFL?
+
+¿Qué posiciones presentan mayor cantidad de lesiones?
+¿En qué mes se producen más lesiones?
+¿Qué porcentaje de lesiones ocurre durante los partidos?
+¿Qué porcentaje ocurre durante los entrenamientos?
+¿Cuántas lesiones se producen durante la pretemporada?
+¿Qué tipo de lesión representa el mayor porcentaje de casos?
+¿Qué tipo de lesiones son más frecuentes entre los offensive linemen?
+¿Qué posición tiene mayor probabilidad de sufrir una lesión que requiera cirugía?
+¿Cómo cambia el riesgo de lesión entre posiciones de contacto y posiciones de habilidad?
+¿Qué posiciones presentan mayor deterioro físico a lo largo de una temporada?
+¿Qué edad promedio tienen los jugadores cuando sufren su primera lesión importante?
+¿Qué relación existe entre dropbacks y lesiones en quarterbacks?
+¿Qué medidas utiliza la NFL para identificar una posible conmoción?
+¿Cuántas recepciones consigue en promedio un receptor por partido?
+¿Cuál es el promedio de yardas recibidas por partido?
+¿Cuántos touchdowns por recepción consigue en promedio?
+¿Qué porcentaje de sus recepciones consigue convertir en primer down?
+¿Qué porcentaje de los pases dirigidos a un receptor termina en recepción?
+¿Cuántos pases incompletos deja escapar un receptor por partido?
+¿Qué tan frecuente consigue recepciones de más de 20 yardas un receptor?
+¿Qué porcentaje de las jugadas ofensivas disputa un receptor?
+¿Cuántas rutas corre en promedio por partido?
+¿Cuántas oportunidades de recepción tiene por cada ruta ejecutada un receptor?
+¿Cuántos snaps necesita, en promedio, para conseguir una recepción un receptor?
+47. ¿Qué receptores mantienen una mayor producción con menos oportunidades?
+¿Qué diferencias estadísticas existen entre receptores abiertos (wide receivers) y receptores de ranura (slot receivers)?
+¿Qué tipo de receptor consigue más yardas por recepción?
+¿Qué tipo de receptor tiene mayor porcentaje de recepción?
+¿Qué receptores son más efectivos en rutas profundas?
+¿Qué tipo de rutas genera más oportunidades de anotación?
+¿Qué receptores son más efectivos contra coberturas individuales?
+ ¿Qué receptores son más efectivos contra coberturas zonales?
+¿Existe una relación entre la velocidad de un receptor y sus yardas recibidas?
+¿Cuántos tackles realiza en promedio un jugador del perímetro por partido?
+¿Cuántos pases defendidos consigue por temporada un perimetro?
+¿Cuántas intercepciones consigue en promedio por temporada un perimetro?
+¿Cuál es su promedio de tackles individuales por partido de un perimetro?
+¿Cuántas veces provoca un balón suelto (forced fumbles) un perimetro?
+¿Cuántos touchdowns defensivos consigue durante una temporada un perimetro?
+¿Con qué frecuencia consigue una intercepción un perimetro?
+¿Qué jugadores del perímetro tienen mayor producción defensiva?
+¿Qué jugadores consiguen más intercepciones por temporada?
+¿Cuál es el promedio de intercepciones por partido?
+¿Qué porcentaje de pases dirigidos hacia su zona termina en intercepción? (perimetro)
+¿Qué diferencias estadísticas existen entre los cornerbacks y los safeties?
+¿Qué posición registra mayor cantidad de tackles por partido?
+¿Qué posición permite menos yardas por recepción?
+¿Qué posición participa con mayor frecuencia en coberturas individuales?
+¿Qué posición tiene mayor participación en jugadas de apoyo contra la carrera?
+¿Qué diferencias existen entre el rendimiento de los safeties libres (free safeties) y los safeties fuertes (strong safeties)?
+¿Qué posición consigue más pases defendidos?
+¿Qué posición tiene mayor probabilidad de provocar un balón suelto?
+¿Qué relación existe entre la velocidad de un jugador y su efectividad en cobertura?
+¿Cuántas capturas consigue un jugador del perímetro por temporada?
+¿Qué tan efectivo es defendiendo en situaciones de tercer down un perimetro?
+¿Qué tan efectivo es defendiendo jugadas de pase en situaciones de cuarta oportunidad un perimetro?
+¿Qué defensores permiten menos yardas por cobertura?
+¿Qué jugadores generan mayor impacto defensivo sin registrar intercepciones?
+¿Cuántos goles de campo convierte un pateador en promedio por partido?
+¿Cuántos intentos de gol de campo realiza por temporada?
+¿Cuál es su porcentaje de efectividad en goles de campo?
+¿Cuántos puntos consigue aportar en promedio por partido un pateador?
+¿Cuántos puntos extra convierte por temporada un pateador?
+¿Cómo influye el viento en la precisión de los goles de campo?
+¿Qué tan efectivo es patear bajo la lluvia?
+¿Cómo cambia su porcentaje de conversión en temperaturas bajas de un pateador?
+¿Qué diferencia existe entre su rendimiento en estadios abiertos y techados de un pateador?
+¿Cómo influye la dirección del viento en la distancia de sus patadas?
+¿Qué tan frecuente falla intentos cuando las condiciones climáticas son adversas?
+¿Cómo cambia su precisión dependiendo de la altitud del estadio?
+¿Cuántas oportunidades de gol de campo tiene un pateador por partido?
+¿Qué relación existe entre las oportunidades de gol de campo y la producción ofensiva?
+¿Cuántas veces intenta una patada por cada partido disputado?
+¿Cuál es su porcentaje de goles de campo convertidos respecto a los intentos esperados según la distancia?

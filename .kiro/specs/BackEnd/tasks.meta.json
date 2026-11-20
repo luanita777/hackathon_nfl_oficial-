@@ -1,0 +1,476 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Script del Riesgo 1: esquemas dentro de Man y Zone": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405778
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196412340
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196485047
+      }
+    ],
+    "1.2 Script del Riesgo 2: profundidad, snap y supervivencia": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405784
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196412795
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196485096
+      }
+    ],
+    "1.3 Script del Riesgo 3: anchura de los IC por equipo y estabilidad": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405787
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196413372
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196485509
+      }
+    ],
+    "1.4 Armar el Reporte_Fase0": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405790
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196487515
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196546684
+      }
+    ],
+    "2. Checkpoint - Aprobación del Reporte_Fase0": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405793
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196740938
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196743342
+      }
+    ],
+    "3.1 Crear esqueletos con firmas y constantes": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405796
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196750199
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196794338
+      }
+    ],
+    "4.1 Implementar `cargar()`, `profundidad()` y `motivo_descarte()`": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405798
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196797133
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196911390
+      }
+    ],
+    "4.4 Escribir pruebas de ejemplo del loader con filas reales": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405802
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196916299
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196998695
+      }
+    ],
+    "5.1 Implementar Wilson, contraste de proporciones y bootstrap": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405807
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196797935
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196911668
+      }
+    ],
+    "5.2 Implementar tabla P_Man, lectura, Disfraz, efecto y filtros": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405809
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196916621
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196999039
+      }
+    ],
+    "5.9 Escribir pruebas de ejemplo de metrics": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405810
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196917334
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196999825
+      }
+    ],
+    "6.1 Implementar `auc`, `spearman`, permutación y `validar`": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405811
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197003746
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197100738
+      }
+    ],
+    "6.5 Escribir pruebas de ejemplo de validacion": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405813
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197103236
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197128463
+      }
+    ],
+    "7.1 Implementar `explicar`, `verificar_texto` y caché en memoria": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405814
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196798787
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196912366
+      }
+    ],
+    "7.3 Escribir pruebas de IA con cliente simulado": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405815
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196918204
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197000748
+      }
+    ],
+    "8. Checkpoint - Cierre de la Fase 1": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405816
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197130728
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197165334
+      }
+    ],
+    "9.1 Implementar reglas de decisión y `armar_hallazgo`": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405817
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197168702
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197323901
+      }
+    ],
+    "10.1 Adaptar `backend/main.py`": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405818
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197168927
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197324248
+      }
+    ],
+    "10.2 Implementar `backend/api.py`": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405819
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197326770
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197430289
+      }
+    ],
+    "10.4 Escribir pruebas de endpoints con TestClient": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405820
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197432755
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197552989
+      }
+    ],
+    "10.5 Escribir pruebas de \"nada en disco\" y de estáticos": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405821
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197433824
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197553621
+      }
+    ],
+    "10.6 Documentar la API en el README": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405822
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197434509
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197554440
+      }
+    ],
+    "11. Checkpoint - Cierre de la Fase 2": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405823
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197556642
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197645023
+      }
+    ],
+    "12.1 Revisar el diff completo contra `rules.md` y `equipo.md`": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196405824
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197648820
+      },
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197715898
+      }
+    ],
+    "1. Fase 0: verificar los tres riesgos con scripts de solo lectura": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196546688
+      }
+    ],
+    "3. Definir contratos y esqueleto de módulos (Fase 1, arranque)": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196794340
+      }
+    ],
+    "4. Implementar `loader.py` (agente A)": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196998699
+      }
+    ],
+    "5. Implementar `metrics.py` (agente B)": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795196999828
+      }
+    ],
+    "7. Implementar `ia.py` (agente D)": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197000751
+      }
+    ],
+    "6. Implementar `validacion.py` (agente C)": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197128466
+      }
+    ],
+    "9. Implementar `hallazgo.py` (Fase 2, agente G)": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197323903
+      }
+    ],
+    "10. Implementar `main.py` y `api.py` (Fase 2, agente E)": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197554445
+      }
+    ],
+    "12. Revisión final independiente": [
+      {
+        "executionId": "945f713b-a920-45ee-bfcb-3b56c1a26b05",
+        "chatSessionId": "sess_abca3092-0e94-4110-be00-76eb891c1aa0",
+        "timestamp": 1795197715901
+      }
+    ]
+  }
+}
