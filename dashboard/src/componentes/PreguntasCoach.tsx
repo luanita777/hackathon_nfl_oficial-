@@ -7,6 +7,7 @@ import { preguntas, rellenar, type PreguntaSugerida } from '../preguntas'
 import { MIN_N, esNum, miles, pct, con } from '../theme'
 import type { Efecto, Explicacion, FilaEquipo, FilaTell, Validacion, Filtros } from '../types'
 import { TRAMO_TXT } from '../lib/lectura'
+import { IcoAlerta } from './Iconos'
 
 type Pestana = 'lectura' | 'equipos' | 'efecto'
 interface Respuesta { titulo: string; detalle: string[]; aviso?: string }
@@ -136,7 +137,7 @@ export default function PreguntasCoach({ acento }: { irA?: (p: Pestana) => void;
           <div className="aparece mt-3 rounded-lg border border-slate-600 bg-slate-800/60 p-3">
             <p className="text-lg font-bold text-white">{resp.titulo}</p>
             {resp.detalle.length > 0 && <ul className="mt-1 list-disc space-y-0.5 pl-5 text-sm text-slate-200">{resp.detalle.map((d) => <li key={d}>{d}</li>)}</ul>}
-            {resp.aviso && <p className="mt-2 text-xs text-amber-300">⚠ {resp.aviso}</p>}
+            {resp.aviso && <p className="mt-2 text-xs text-amber-300"><IcoAlerta /> {resp.aviso}</p>}
             {ia && <p className="mt-2 border-t border-slate-700 pt-2 text-sm text-slate-300">{ia}<span className="block text-[11px] text-slate-500">Explicación generada por IA a partir de las cifras de arriba</span></p>}
           </div>
         )}

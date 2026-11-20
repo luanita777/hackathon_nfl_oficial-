@@ -14,6 +14,7 @@ import { GraficaTramos } from '../componentes/GraficaTramos'
 import { Simulador } from '../componentes/Simulador'
 import { Sello, nivelSello } from '../componentes/Sello'
 import Titular from '../componentes/Titular'
+import { IcoAlerta } from '../componentes/Iconos'
 
 const NO_DISP = 'No disponible'
 
@@ -58,8 +59,8 @@ export default function Lectura() {
 
       {(noSostiene || celdasChicas + Math.max(0, faltantes) > 0) && !tell.cargando && !sinDatos ? (
         <div role="alert" className="space-y-0.5 rounded-lg border border-amber-500/50 bg-amber-950/30 px-3 py-1.5 text-xs text-amber-200">
-          {noSostiene ? <div>⚠ Esta lectura no se repite entre semanas pares e impares con estos filtros.</div> : null}
-          {celdasChicas + Math.max(0, faltantes) > 0 ? <div>⚠ En {celdasChicas + Math.max(0, faltantes)} de los 20 acomodos hay menos de {MIN_N} jugadas: se muestran sin cifra.</div> : null}
+          {noSostiene ? <div><IcoAlerta /> Esta lectura no se repite entre semanas pares e impares con estos filtros.</div> : null}
+          {celdasChicas + Math.max(0, faltantes) > 0 ? <div><IcoAlerta /> En {celdasChicas + Math.max(0, faltantes)} de los 20 acomodos hay menos de {MIN_N} jugadas: se muestran sin cifra.</div> : null}
         </div>
       ) : null}
 
@@ -81,7 +82,7 @@ export default function Lectura() {
             <PanelCelda tramo={sel.tramo} safeties={sel.safeties} fila={filaSel} onCerrar={() => setSel(null)} />
           ) : (
             <div className="flex h-full min-h-[160px] items-center justify-center rounded-xl border border-dashed border-slate-600 p-4 text-center text-sm text-slate-400">
-              👈 Elige un cuadro del mapa para ver cómo se acomoda la defensa y qué tan seguro es leerla.
+              Elige un cuadro del mapa para ver cómo se acomoda la defensa y qué tan seguro es leerla.
             </div>
           )}
         </div>

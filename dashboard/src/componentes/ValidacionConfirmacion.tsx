@@ -2,6 +2,7 @@
 import { Tip } from './Tooltip'
 import { esNum, miles, pct } from '../theme'
 import type { Contraste, Validacion } from '../types'
+import { IcoAlerta, IcoCheck } from './Iconos'
 
 type Conf = NonNullable<Validacion['confirmacion']>
 
@@ -16,7 +17,7 @@ function Tarjeta({ c }: { c: Contraste & { parte: string } }) {
         </div>
       ) : <div className="mt-1 text-amber-300">n insuficiente</div>}
       <div className="mt-1 text-slate-300"><Tip t="n">n</Tip> {miles(c.n)}: grupo A {miles(c.n_a ?? 0)} ({esNum(c.p_a) ? pct(c.p_a) : '—'}), grupo B {miles(c.n_b ?? 0)} ({esNum(c.p_b) ? pct(c.p_b) : '—'})</div>
-      {(c.n_a ?? 0) < 30 || (c.n_b ?? 0) < 30 ? <div className="text-amber-300" role="alert">⚠ n &lt; 30 en un grupo</div> : null}
+      {(c.n_a ?? 0) < 30 || (c.n_b ?? 0) < 30 ? <div className="text-amber-300" role="alert"><IcoAlerta /> n &lt; 30 en un grupo</div> : null}
     </div>
   )
 }
@@ -24,7 +25,7 @@ function Tarjeta({ c }: { c: Contraste & { parte: string } }) {
 function Decision({ titulo, d }: { titulo: string; d: { publicado: boolean; razon: string | null } }) {
   return (
     <div className={`rounded-md border p-2 text-xs ${d.publicado ? 'border-emerald-600/50' : 'border-amber-500/60'}`}>
-      <b className={d.publicado ? 'text-emerald-300' : 'text-amber-300'}>{d.publicado ? '✓ Publicado' : '⚠ No publicado'}</b>
+      <b className={d.publicado ? 'text-emerald-300' : 'text-amber-300'}>{d.publicado ? <><IcoCheck /> Publicado</> : <><IcoAlerta /> No publicado</>}</b>
       <span className="text-slate-200"> · {titulo}</span>
       {d.razon && <div className="mt-0.5 text-slate-300">{d.razon}</div>}
     </div>
@@ -42,7 +43,7 @@ export function ValidacionConfirmacion({ c }: { c: Conf }) {
         <Decision titulo="decisión por paridad (par / impar)" d={c.decision_paridad} />
         <Decision titulo="decisión por mitades (1-4 / 5-8)" d={c.decision_mitades} />
       </div>
-      {!c.se_sostiene && <p className="text-xs text-amber-300" role="alert">⚠ El hallazgo no se sostiene entre mitades.</p>}
+      {!c.se_sostiene && <p className="text-xs text-amber-300" role="alert"><IcoAlerta /> El hallazgo no se sostiene entre mitades.</p>}
     </div>
   )
 }

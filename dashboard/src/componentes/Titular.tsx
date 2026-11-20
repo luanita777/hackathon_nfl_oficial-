@@ -6,6 +6,7 @@ import { esNum, miles, pct } from '../theme'
 import { Cargando, ErrorApi, Vacio } from './Estados'
 import { Pictograma } from './Pictograma'
 import { Tip } from './Tooltip'
+import { IcoAlerta, IcoCheck } from './Iconos'
 
 function Fila({ titulo, e, color }: { titulo: string; e: Estimacion | null | undefined; color: string }) {
   if (!e || !esNum(e.est)) return (
@@ -40,8 +41,8 @@ export default function Titular() {
       <div className="flex flex-wrap items-center gap-2 text-[11px]">
         <span className="text-xs font-bold uppercase tracking-wide text-slate-400">Respuesta corta</span>
         {val && (val.se_sostiene
-          ? <span className="rounded-full border border-emerald-500/60 bg-emerald-500/10 px-2 py-0.5 text-emerald-300">✓ Se repite en las dos mitades de la temporada</span>
-          : <span className="rounded-full border border-amber-500/60 bg-amber-500/10 px-2 py-0.5 text-amber-300">⚠ No se repite entre mitades: tómalo con cuidado</span>)}
+          ? <span className="rounded-full border border-emerald-500/60 bg-emerald-500/10 px-2 py-0.5 text-emerald-300"><IcoCheck /> Se repite en las dos mitades de la temporada</span>
+          : <span className="rounded-full border border-amber-500/60 bg-amber-500/10 px-2 py-0.5 text-amber-300"><IcoAlerta /> No se repite entre mitades: tómalo con cuidado</span>)}
       </div>
       {ok ? (
         <>

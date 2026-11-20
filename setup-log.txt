@@ -430,3 +430,79 @@ Revisando desviaciones del stack...
 12:20:22 
 RESULTADO: TODO OK, puedes entregar.
 12:20:22 FIN con código de salida 0
+
+===== setup 2026-11-20 12:51:33 =====
+12:51:33 Sistema detectado: macos arm64  |  Python del arranque: 3.12.12
+12:51:33 MODO: entregar  |  versión del script: 2026-11-16  |  argumentos: --entregar
+12:51:33 SISTEMA: macOS-26.6.2-arm64-arm-64bit  |  detectado: macos arm64  |  versión: Darwin Kernel Version 25.6.0: Fri Jul 31 19:11:03 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T8132
+12:51:33 PYTHON: 3.12.12 (/Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python)
+12:51:33 USUARIO: francisconolasco  |  carpeta actual: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
+12:51:33 PROYECTO: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-  |  largo de ruta: 54  |  espacios: False  |  no ASCII: False
+12:51:33 DISCO LIBRE: 169.1 GB
+12:51:33 PROXY: ninguno
+12:51:33 Proyecto: /Users/francisconolasco/Desktop/hackathon_nfl_oficial-
+12:51:33 
+Preparando la entrega...
+12:51:33 
+[1/7] Validando el entorno
+12:51:33 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.hackathon/.tools/uv/uv pip check --python /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python
+12:51:33 Checked 55 packages in 6ms
+All installed packages are compatible
+12:51:33 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -c import pandas, numpy, fastapi, uvicorn, pydantic, strands, boto3, httpx
+12:51:34 
+12:51:34   Pieza              Esperado                            Encontrado      Estado
+12:51:34   -----------------  ----------------------------------  --------------  ------
+12:51:34   uv                 0.11.19                             0.11.19         OK    
+12:51:34   Python (.venv)     3.12.12                             3.12.12         OK    
+12:51:34   Node               v22.23.1                            v22.23.1        OK    
+12:51:34   npm                10.x                                10.9.8          OK    
+12:51:34   Paquetes Python    9 fijos                             9 coinciden     OK    
+12:51:34   Paquetes npm       12 fijos                            12 coinciden    OK    
+12:51:34   pip check          sin conflictos                      sin conflictos  OK    
+12:51:34   Importar paquetes  pandas, fastapi, pydantic, strands  importan        OK    
+12:51:34 
+[2/7] Revisando el README y el stack
+12:51:34     README encontrado
+12:51:34 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -c import backend.main as m;assert hasattr(m,'app'), 'APP';assert any(getattr(r,'path','')=='/health' for r in m.app.routes), 'HEALTH'
+12:51:34 
+12:51:34     El proyecto sigue el stack del evento
+12:51:34     Rutas del dashboard OK (ninguna empieza con '/')
+12:51:34 
+[3/7] Compilando el dashboard (vite build)
+12:51:34 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.hackathon/.tools/node/bin/node /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/dashboard/node_modules/vite/bin/vite.js build
+12:51:35 vite v5.4.21 building for production...
+transforming...
+✓ 455 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.38 kB │ gzip:   0.27 kB
+dist/assets/index-QsO_OFZT.css   20.65 kB │ gzip:   4.85 kB
+dist/assets/index-hdnThUaI.js   657.16 kB │ gzip: 196.15 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 1.11s
+12:51:35     Dashboard compilado en dashboard/dist
+12:51:35 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.hackathon/.tools/node/bin/node /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/dashboard/node_modules/typescript/bin/tsc --noEmit -p /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/dashboard
+12:51:36 
+12:51:36 
+[4/7] Comprobando el backend (sintaxis e importación)
+12:51:36 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -m compileall -q backend
+12:51:36 
+12:51:36 $ /Users/francisconolasco/Desktop/hackathon_nfl_oficial-/.venv/bin/python -c import backend.main
+12:51:36 
+12:51:36     Backend OK (backend.main se importa sin errores)
+12:51:36 
+[5/7] Buscando llaves y credenciales en tus archivos
+12:51:36     Sin credenciales a la vista
+12:51:36 
+[6/7] Empaquetando
+12:51:54 
+[7/7] Verificando el .zip
+12:51:54     216 archivos, 171.9 MB
+12:51:54 
+LISTO. Sube este archivo:
+  /Users/francisconolasco/Desktop/entrega-hackathon_nfl_oficial--20261120-1251.zip
+12:51:54 FIN con código de salida 0

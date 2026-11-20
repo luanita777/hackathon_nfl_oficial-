@@ -10,6 +10,7 @@ import { Insignia } from './Insignia'
 import { Sello, nivelSello } from './Sello'
 import { Tip } from './Tooltip'
 import { Cargando, ErrorApi } from './Estados'
+import { IcoAlerta } from './Iconos'
 
 const NO_DISP = 'No disponible en la API'
 
@@ -75,7 +76,7 @@ export function ModoRival({ equipo }: { equipo: string }) {
               <div className="text-xs uppercase tracking-wide text-slate-400"><Tip t="tasa_disfraz">Tasa de disfraz</Tip></div>
               <div className="text-lg font-semibold">{textoEst(fT)}</div>
               <div className="text-xs text-slate-400"><Tip t="n">n</Tip> = {miles(fT.n)} jugadas con lectura clara · Contra la liga: {NO_DISP}</div>
-              {fT.n < MIN_N && <p className="mt-1 text-xs text-amber-300">⚠ n &lt; {MIN_N}: la cifra no es confiable.</p>}
+              {fT.n < MIN_N && <p className="mt-1 text-xs text-amber-300"><IcoAlerta /> n &lt; {MIN_N}: la cifra no es confiable.</p>}
             </div>
 
             <div>
@@ -85,9 +86,9 @@ export function ModoRival({ equipo }: { equipo: string }) {
                 <li>Semanas 5-8: {textoEst(f2)} · n = {miles(f2?.n ?? 0)}</li>
               </ul>
               <p className="text-xs">
-                {pocoN ? <span className="text-amber-300">⚠ Frágil: alguna cifra tiene n &lt; {MIN_N}, no se puede comparar bien.</span>
+                {pocoN ? <span className="text-amber-300"><IcoAlerta /> Frágil: alguna cifra tiene n &lt; {MIN_N}, no se puede comparar bien.</span>
                   : traslape ? <span>Los IC95% de las dos mitades se traslapan: no hay evidencia de que el equipo cambiara.</span>
-                  : <span className="text-amber-300">⚠ Los IC95% no se traslapan: el equipo se vio distinto entre mitades.</span>}
+                  : <span className="text-amber-300"><IcoAlerta /> Los IC95% no se traslapan: el equipo se vio distinto entre mitades.</span>}
               </p>
             </div>
 
@@ -98,7 +99,7 @@ export function ModoRival({ equipo }: { equipo: string }) {
                   {top3.map((f) => (
                     <li key={`${f.tramo_cb}|${f.safeties_prof}`} className="rounded border border-slate-700 px-2 py-1">
                       CB {TRAMO_TXT[f.tramo_cb as string]} · {f.safeties_prof} safeties: <b>{textoEst(f)}</b>{' '}
-                      <span className="text-slate-400">n = {miles(f.n)}</span>{f.n < MIN_N && <span className="text-amber-300"> ⚠ n &lt; {MIN_N}</span>}
+                      <span className="text-slate-400">n = {miles(f.n)}</span>{f.n < MIN_N && <span className="text-amber-300"> <IcoAlerta /> n &lt; {MIN_N}</span>}
                     </li>
                   ))}
                 </ol>

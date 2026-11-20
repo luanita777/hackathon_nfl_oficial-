@@ -6,6 +6,7 @@ import { esNum, pct, miles, MIN_N } from '../theme'
 import { Tip } from './Tooltip'
 import { Pizarra } from './Pizarra'
 import { Semaforo } from './Semaforo'
+import { IcoAlerta } from './Iconos'
 
 type Celda = FilaTell & { tramo_cb: TramoCb; safeties_prof: 0 | 1 | 2 | 3 }
 
@@ -73,7 +74,7 @@ export function Simulador({ filas }: { filas: FilaTell[] }) {
                 : <b>n insuficiente</b>}
               <span className="text-slate-400"> · <Tip t="n">n</Tip> = {miles(fila.n)}</span>
             </div>
-            {fila.n < MIN_N && <p className="text-xs text-amber-300">⚠ n &lt; {MIN_N}: no hay lectura confiable.</p>}
+            {fila.n < MIN_N && <p className="text-xs text-amber-300"><IcoAlerta /> n &lt; {MIN_N}: no hay lectura confiable.</p>}
             <Semaforo fila={fila} />
           </div>
         </div>

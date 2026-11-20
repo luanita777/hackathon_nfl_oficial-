@@ -8,6 +8,7 @@ import { Tip } from './Tooltip'
 import { paletaEquipo } from '../equipos'
 import { esNum, MIN_N, num, pct, tema } from '../theme'
 import type { FilaEquipo, Filtros, Validacion } from '../types'
+import { IcoAlerta } from './Iconos'
 
 interface Punto { equipo: string; x: number; y: number; n1: number; n2: number; chico: boolean }
 
@@ -59,7 +60,7 @@ export function ValidacionMitades({ val }: { val: Validacion | null }) {
                     <b>{paletaEquipo(p.equipo).nombre}</b>
                     <div>Semanas 1-4: {pct(p.x)} (n = {p.n1})</div>
                     <div>Semanas 5-8: {pct(p.y)} (n = {p.n2})</div>
-                    {p.chico && <div className="text-amber-300">⚠ n &lt; {MIN_N}</div>}
+                    {p.chico && <div className="text-amber-300"><IcoAlerta /> n &lt; {MIN_N}</div>}
                   </div>
                 )
               }} />
@@ -84,7 +85,7 @@ export function ValidacionMitades({ val }: { val: Validacion | null }) {
             p de permutación <b>{esNum(em.p_permutacion_pearson) ? num(em.p_permutacion_pearson, 3) : 'n insuficiente'}</b> ({em.n_equipos} equipos).
           </p>
         )}
-        {fragil && <p className="mt-1 text-xs text-amber-300" role="alert">⚠ Frágil: no se sostiene entre mitades. El orden de los equipos en semanas 1-4 no predice el de 5-8; no uses el ranking por equipo.</p>}
+        {fragil && <p className="mt-1 text-xs text-amber-300" role="alert"><IcoAlerta /> Frágil: no se sostiene entre mitades. El orden de los equipos en semanas 1-4 no predice el de 5-8; no uses el ranking por equipo.</p>}
         {puntos.some((p) => p.chico) && <p className="text-xs text-amber-300">Puntos atenuados: n &lt; {MIN_N} en alguna mitad.</p>}
       </Estado>
     </section>

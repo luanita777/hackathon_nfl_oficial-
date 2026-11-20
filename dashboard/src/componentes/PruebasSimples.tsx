@@ -2,12 +2,13 @@
 import type { Efecto, Validacion } from '../types'
 import { con, esNum, miles, num, pct } from '../theme'
 import { Pictograma } from './Pictograma'
+import { IcoAlerta, IcoCheck, IcoX, IcoAprox } from './Iconos'
 
 function Prueba({ ok, pregunta, respuesta, detalle }: { ok: boolean | null; pregunta: string; respuesta: string; detalle?: string }) {
   const c = ok === null ? 'border-slate-600' : ok ? 'border-emerald-500/50' : 'border-amber-500/50'
   return (
     <li className={`aparece flex gap-3 rounded-lg border bg-slate-900/60 p-3 ${c}`}>
-      <span aria-hidden className={`mt-0.5 text-xl ${ok === null ? 'text-slate-400' : ok ? 'text-emerald-400' : 'text-amber-400'}`}>{ok === null ? '≈' : ok ? '✓' : '✕'}</span>
+      <span aria-hidden className={`mt-0.5 text-xl ${ok === null ? 'text-slate-400' : ok ? 'text-emerald-400' : 'text-amber-400'}`}>{ok === null ? <IcoAprox tam={20} /> : ok ? <IcoCheck tam={20} /> : <IcoX tam={20} />}</span>
       <div>
         <div className="text-xs uppercase tracking-wide text-slate-400">{pregunta}</div>
         <div className="text-base font-bold text-slate-50"><span className="sr-only">{ok ? 'Pasa. ' : ok === false ? 'No pasa. ' : ''}</span>{respuesta}</div>
@@ -66,7 +67,7 @@ export function EfectoSimple({ e }: { e: Efecto }) {
           ? ((y.lo > 0 || y.hi < 0) ? `En yardas por jugada sí hay diferencia: ${con(y.est, 2)} yardas.` : 'En yardas por jugada no se nota diferencia: el disfraz no cambia cuánto avanza el ataque.')
           : ''}
       </p>
-      <p className="text-xs text-amber-300">⚠ Es una asociación observada, no prueba que el disfraz sea la causa.</p>
+      <p className="text-xs text-amber-300"><IcoAlerta /> Es una asociación observada, no prueba que el disfraz sea la causa.</p>
     </div>
   )
 }

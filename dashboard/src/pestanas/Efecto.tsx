@@ -8,6 +8,7 @@ import { ValidacionTabla } from '../componentes/ValidacionTabla'
 import { ValidacionConfirmacion } from '../componentes/ValidacionConfirmacion'
 import { ValidacionMitades } from '../componentes/ValidacionMitades'
 import type { Efecto as EfectoT, Validacion } from '../types'
+import { IcoAlerta } from '../componentes/Iconos'
 
 export default function Efecto(_props: { irA?: unknown } = {}) {
   const { filtros } = useFiltros()
@@ -27,7 +28,7 @@ export default function Efecto(_props: { irA?: unknown } = {}) {
       <section>
         <h2 className="mb-2 text-xl font-bold">¿Podemos creerle a este análisis? Cinco pruebas</h2>
         <Estado cargando={va.cargando} error={va.error} reintentar={va.recargar} vacio={v?.n === 0} alto={200}>
-          {v && !v.se_sostiene && <p className="mb-2 rounded border border-amber-500/60 p-2 text-xs text-amber-300" role="alert">⚠ Con estos filtros el hallazgo no se sostiene entre mitades.</p>}
+          {v && !v.se_sostiene && <p className="mb-2 rounded border border-amber-500/60 p-2 text-xs text-amber-300" role="alert"><IcoAlerta /> Con estos filtros el hallazgo no se sostiene entre mitades.</p>}
           {v && <PruebasSimples v={v} />}
         </Estado>
       </section>

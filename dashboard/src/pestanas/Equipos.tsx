@@ -12,6 +12,7 @@ import { colorAcento, paletaEquipo } from '../equipos'
 import { useFiltros } from '../FiltrosContext'
 import { MIN_N, num, tema } from '../theme'
 import type { FilaEquipo, Filtros, Validacion } from '../types'
+import { IcoAlerta } from '../componentes/Iconos'
 
 type Pestana = 'lectura' | 'equipos' | 'efecto'
 
@@ -61,7 +62,7 @@ export default function Equipos({ irA }: { irA?: (p: Pestana) => void }) {
         </div>
         {!val.cargando && sello.nivel !== 'solido' && (
           <p role="alert" className="mt-2 rounded border border-amber-500/60 bg-amber-950/30 p-2 text-xs text-amber-200">
-            ⚠ Cuidado al comparar equipos: {sello.motivo}.
+            <IcoAlerta /> Cuidado al comparar equipos: {sello.motivo}.
           </p>
         )}
         {pocos > 0 && <p className="mt-1 text-xs text-amber-300">{pocos} equipo(s) con n &lt; {MIN_N}: atenuados y marcados con *.</p>}

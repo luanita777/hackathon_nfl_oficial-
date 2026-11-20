@@ -11,7 +11,7 @@ const ESTILO: Record<Color, { nombre: string; relleno: string; clase: string }> 
   gris: { nombre: 'Gris', relleno: '#64748b', clase: 'border-slate-500/60' },
 }
 
-/** Ícono: verde = círculo con ✓, ámbar = rombo con !, rojo = triángulo con ✕, gris = cuadrado con –. */
+/** Ícono: verde = círculo con palomita, ámbar = rombo con signo de alerta, rojo = triángulo con signo de alto, gris = cuadrado con raya. */
 function Icono({ color }: { color: Color }) {
   const f = ESTILO[color].relleno
   return (
@@ -20,9 +20,12 @@ function Icono({ color }: { color: Color }) {
       {color === 'ambar' && <polygon points="17,2 32,17 17,32 2,17" fill={f} />}
       {color === 'rojo' && <polygon points="17,3 32,30 2,30" fill={f} />}
       {color === 'gris' && <rect x={3} y={3} width={28} height={28} rx={3} fill={f} />}
-      <text x={17} y={color === 'rojo' ? 26 : 22} textAnchor="middle" fontSize={16} fontWeight={800} fill="#0a0e17">
-        {color === 'verde' ? '✓' : color === 'ambar' ? '!' : color === 'rojo' ? '✕' : '–'}
-      </text>
+      <g stroke="#0a0e17" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round" fill="none">
+        {color === 'verde' && <path d="m10 17.5 5 5 9-10" />}
+        {color === 'ambar' && <path d="M17 9.5v9M17 23.2v.1" />}
+        {color === 'rojo' && <path d="M17 13v8M17 24.5v.1" transform="translate(0 1)" />}
+        {color === 'gris' && <path d="M11 17h12" />}
+      </g>
     </svg>
   )
 }

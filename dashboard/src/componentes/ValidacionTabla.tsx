@@ -3,12 +3,13 @@ import type { ReactNode } from 'react'
 import { Tip } from './Tooltip'
 import { esNum, miles, num, pct } from '../theme'
 import type { Resultado, Validacion } from '../types'
+import { IcoCheck, IcoX } from './Iconos'
 
 function PasaTxt({ r }: { r: Resultado | undefined }) {
   const ok = r === 'pasa'
   return (
     <span className={`inline-flex items-center gap-1 whitespace-nowrap font-semibold ${ok ? 'text-emerald-300' : 'text-red-300'}`}>
-      <span aria-hidden>{ok ? '✓' : '✕'}</span>{ok ? 'Pasa' : 'No pasa'}
+      <span aria-hidden>{ok ? <IcoCheck /> : <IcoX />}</span>{ok ? 'Pasa' : 'No pasa'}
     </span>
   )
 }

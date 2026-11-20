@@ -6,6 +6,7 @@ import { Vacio } from './Estados'
 import { EfectoEscalaIC } from './EfectoEscalaIC'
 import { con, esNum, miles, MIN_N, tema } from '../theme'
 import type { EfectoMedida } from '../types'
+import { IcoAlerta } from './Iconos'
 
 interface Props {
   titulo: string
@@ -71,7 +72,7 @@ export function EfectoPanel({ titulo, tip, m, valA, valB, unidad, dec }: Props) 
       ) : (
         <p className="mt-1 text-xs text-amber-200">El IC95% excluye 0, pero es un análisis observacional: no es causalidad.</p>
       )}
-      {chico && <p className="mt-1 text-xs text-amber-300" role="alert">⚠ Un grupo tiene n &lt; {MIN_N}: tómalo con cautela.</p>}
+      {chico && <p className="mt-1 text-xs text-amber-300" role="alert"><IcoAlerta /> Un grupo tiene n &lt; {MIN_N}: tómalo con cautela.</p>}
     </section>
   )
 }
